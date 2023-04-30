@@ -25,11 +25,11 @@ function App() {
       <FirstImpressionSection sectionNo = {0} updateYPosition = {updateYPosSection}/>
       <ElevatorPitch sectionNo = {1} updateYPosition = {updateYPosSection}/>
       <ResumeSection resumeInfoWork = {workExperienceResumeInfo} resumeInfoEducation = {educationResumeInfo} sectionNo = {2} updateYPosition = {updateYPosSection}/>
-      <ProjectSection projectNo = {1} projectInfo = {VisProgProject} sectionNo = {3} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
-      <ProjectSection projectNo = {2} projectInfo = {ToyProgLang} sectionNo = {4} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
-      <ProjectSection projectNo = {3} projectInfo = {FullStackNotebook} sectionNo = {6} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
-      <ProjectSection projectNo = {4} projectInfo = {ResumeWebsiteProject} sectionNo = {7} updateYPosition = {updateYPosSection} showLiveDemoButton = {false}/>
-      <ProjectSection projectNo = {5} projectInfo = {SymbolicRegression} sectionNo = {5} updateYPosition = {updateYPosSection} showLiveDemoButton = {false}/>
+      <ProjectSection key = {1} projectNo = {1} projectInfo = {VisProgProject} sectionNo = {3} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
+      <ProjectSection key = {2} projectNo = {2} projectInfo = {ToyProgLang} sectionNo = {4} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
+      <ProjectSection key = {3} projectNo = {3} projectInfo = {FullStackNotebook} sectionNo = {6} updateYPosition = {updateYPosSection} showLiveDemoButton = {true}/>
+      <ProjectSection key = {4} projectNo = {4} projectInfo = {ResumeWebsiteProject} sectionNo = {7} updateYPosition = {updateYPosSection} showLiveDemoButton = {false}/>
+      <ProjectSection key = {5} projectNo = {5} projectInfo = {SymbolicRegression} sectionNo = {5} updateYPosition = {updateYPosSection} showLiveDemoButton = {false}/>
       <GetInContactSection sectionNo = {8} updateYPosition = {updateYPosSection}/>
       {/* <NavBar yPositions={yPosSections}/> */}
       {/* </div> */}

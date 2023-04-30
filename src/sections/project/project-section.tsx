@@ -55,14 +55,14 @@ export const ProjectSection: React.FC<IProjectSectionProps> = ({projectNo, proje
 
             <div className = "w-auto bg-box-background opacity-0 animate-wait-for-left backdrop-blur-md bg-opacity-10 p-5 pr-7 rounded-r-lg border-l-4 row-start-5 row-span-1 col-start-1 col-span-1 web:row-start-4 web:col-start-2 web:col-span-1 web:row-span-3 overflow-y-auto border-l-border-line" >
                 
-                {projectInfo.bullerpoints.map((curChapter) => {
+                {projectInfo.bullerpoints.map((curChapter, i) => {
                     return (
-                        <div>
-                    <h3 className = "text-xl text-text-highlight">{curChapter.subtitle}</h3>
-                    <ul className = "list-disc pl-6 py-2 text-gray-100">
-                        {curChapter.points.map((curBulletPoint) => <li className = "text-md">{curBulletPoint}</li>)}
-                    </ul>
-                    </div>
+                        <div key = {i}>
+                            <h3 className = "text-xl text-text-highlight">{curChapter.subtitle}</h3>
+                            <ul className = "list-disc pl-6 py-2 text-gray-100">
+                                {curChapter.points.map((curBulletPoint, j) => <li key = {j} className = "text-md">{curBulletPoint}</li>)}
+                            </ul>
+                        </div>
                     )
                 })}
             </div>

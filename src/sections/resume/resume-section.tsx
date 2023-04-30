@@ -13,11 +13,11 @@ export const ResumeSection: React.FC<IResumeSection> = ({resumeInfoWork, resumeI
             
             {/* <div className = "bg-cyan-800 web:grid-cols-general web:gap-5"> */}
 
-            {resumeInfoWork.entries.map((entry) => { return ([
-                <div className = "col-start-1 web:col-start-2 opacity-0 animate-wait-for-left col-span-1 pl-5 web:pl-3 web:mt-0 mt-5">
+            {resumeInfoWork.entries.map((entry, i) => { return ([
+                <div key = {i*2} className = "col-start-1 web:col-start-2 opacity-0 animate-wait-for-left col-span-1 pl-5 web:pl-3 web:mt-0 mt-5">
                     <p className = "text-lg">{entry.timespan}</p>
                 </div>,
-                <div className = "col-start-1 web:col-start-3 col-span-1 pl-5 web:pl-0 opacity-0 animate-wait-for-right">
+                <div key = {i*2+1} className = "col-start-1 web:col-start-3 col-span-1 pl-5 web:pl-0 opacity-0 animate-wait-for-right">
                     <p className = "text-xl text-text-highlight font-bold">{entry.positionTitle}</p>
                     <p>{entry.subTitle}</p>
                     <p>{entry.organisation}</p>
@@ -30,11 +30,11 @@ export const ResumeSection: React.FC<IResumeSection> = ({resumeInfoWork, resumeI
             
             {/* <div className = "bg-cyan-800 web:grid-cols-general web:gap-5"> */}
 
-            {resumeInfoEducation.entries.map((entry) => { return ([
-                <div className = "col-start-1 web:col-start-2 col-span-1 opacity-0 animate-wait-for-left pl-5 web:pl-3 web:mt-0 mt-5">
+            {resumeInfoEducation.entries.map((entry, i) => { return ([
+                <div key = {i*2} className = "col-start-1 web:col-start-2 col-span-1 opacity-0 animate-wait-for-left pl-5 web:pl-3 web:mt-0 mt-5">
                     <p className = "text-lg">{entry.timespan}</p>
                 </div>,
-                <div className = "col-start-1 web:col-start-3 col-span-1 pl-5 web:pl-0 opacity-0 animate-wait-for-right">
+                <div key = {i*2+1} className = "col-start-1 web:col-start-3 col-span-1 pl-5 web:pl-0 opacity-0 animate-wait-for-right">
                     <p className = "text-xl text-text-highlight font-bold">{entry.positionTitle}</p>
                     <p>{entry.subTitle}</p>
                     <p>{entry.organisation}</p>

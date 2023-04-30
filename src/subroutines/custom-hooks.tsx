@@ -33,17 +33,13 @@ export const useIntersectionObserver = (classToRemove: string, classToAdd: strin
       const element = entry.target
       
       if (entry.isIntersecting) {
-        console.log("Adding class")
         element.classList.remove(classToRemove);
         element.classList.add(classToAdd);
-        console.log(element.classList)
         return
       }
 
-      console.log("Removing class")
       element.classList.remove(classToAdd);
       element.classList.add(classToRemove);
-      console.log(element.classList)
       return
     })
   }
@@ -52,7 +48,6 @@ export const useIntersectionObserver = (classToRemove: string, classToAdd: strin
 
     const options = {
       threshold: threshold,
-    //   rootMargin: "-100px"
     }
 
     const flyFromLeftObserver = new IntersectionObserver(intersectCallback, options)
