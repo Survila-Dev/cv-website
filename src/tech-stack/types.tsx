@@ -22,3 +22,6 @@ export type ITech =
     | "AWS"
     | "Firebase"
     | "Testing Lib."
+    | "Keras"
+    | "Pandas"
+    | "OpenGL"

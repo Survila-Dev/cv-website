@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { ITechStack } from "../../tech-stack/types";
 
 export interface IProjectInfo {
@@ -6,7 +7,8 @@ export interface IProjectInfo {
     bullerpoints: {subtitle: string, points: string[]}[],
     gifVisualisation: string,
     links: {githubLink: string, demoLink: string},
-    techstack: ITechStack
+    techstack: ITechStack,
+    visualizationNode: ReactNode
 }
 
 export interface IProjectSectionProps {

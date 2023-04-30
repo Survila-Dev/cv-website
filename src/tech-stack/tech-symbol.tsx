@@ -1,6 +1,6 @@
 import React from "react"
 import { ITech } from "./types"
-import { SiAmazonaws, SiAuth0, SiAxios, SiCss3, SiCypress, SiDocker, SiExpress, SiFirebase, SiGraphql, SiHtml5, SiJavascript, SiJest, SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiSass, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si"
+import { SiAmazonaws, SiAuth0, SiAxios, SiCss3, SiCypress, SiDocker, SiExpress, SiFirebase, SiGraphql, SiHtml5, SiJavascript, SiJest, SiKeras, SiMongodb, SiNodedotjs, SiOpengl, SiPandas, SiPython, SiReact, SiRedux, SiSass, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si"
 
 export const TechSymbol: React.FC<{type: ITech}> = ({type}) => {
 
@@ -72,6 +72,16 @@ export const TechSymbol: React.FC<{type: ITech}> = ({type}) => {
         case "Testing Lib.":
             symbol = <SiTestinglibrary size = {symbolSize}/>
             break
+        case "Keras":
+            symbol = <SiKeras size = {symbolSize}/>
+            break
+        case "Pandas":
+            symbol = <SiPandas size = {symbolSize}/>
+            break
+        case "OpenGL":
+            symbol = <SiOpengl size = {symbolSize}/>
+            break
+            
     }
 
     return (

@@ -28,11 +28,17 @@ export const VisProgProject: IProjectInfo = {
             ]
         }
     ],
-    gifVisualisation: "/Calculator_Demo.mp4",
+    gifVisualisation: "videos/Calculator.mp4",
     links: {demoLink: "https://calculator.eimantas-survila.com/", githubLink: "https://github.com/Survila-Dev/Visual-Calculator"},
     techstack: [
         "HTML", "CSS", "Tailwind CSS", "JavaScript" ,"TypeScript", "React",
-        "Redux", "Auth0", "Axios", "Node.js", "Express.js", "GraphQL", "MongoDB", "cypress"]
+        "Redux", "Auth0", "Axios", "Node.js", "Express.js", "GraphQL", "MongoDB", "cypress"],
+    visualizationNode: (
+        <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
+            <source src="videos/Calculator.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+    )
 }
 
 export const ToyProgLang: IProjectInfo = {
@@ -58,9 +64,15 @@ export const ToyProgLang: IProjectInfo = {
             ]
         }
     ],
-    gifVisualisation: "/Interpreter_Demo.mp4",
+    gifVisualisation: "videos/Interpreter.mp4",
     links: {demoLink: "https://interpreter.eimantas-survila.com/", githubLink: "https://github.com/Survila-Dev/Toy-Prog-Lang"},
-    techstack: ["HTML", "CSS", "JavaScript" ,"TypeScript", "React", "Testing Lib."]
+    techstack: ["HTML", "CSS", "JavaScript" ,"TypeScript", "React", "Testing Lib."],
+    visualizationNode: (
+        <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
+            <source src="videos/Interpreter.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+    )
 }
 
 export const FullStackNotebook: IProjectInfo = {
@@ -83,9 +95,15 @@ export const FullStackNotebook: IProjectInfo = {
             ]
         }
     ],
-    gifVisualisation: "/Notebook_Demo.mp4",
+    gifVisualisation: "videos/Notebook.mp4",
     links: {demoLink: "https://notebook.eimantas-survila.com/", githubLink: "https://github.com/Survila-Dev/Notebook"},
-    techstack: ["HTML", "CSS", "SASS", "JavaScript" ,"TypeScript", "React", "Firebase"]
+    techstack: ["HTML", "CSS", "SASS", "JavaScript" ,"TypeScript", "React", "Firebase"],
+    visualizationNode: (
+        <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
+            <source src="videos/Notebook.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+    )
 }
 
 export const ResumeWebsiteProject: IProjectInfo = {
@@ -111,16 +129,22 @@ export const ResumeWebsiteProject: IProjectInfo = {
         demoLink: "",
         githubLink: "https://github.com/Survila-Dev/Resume-Website"
     },
-    techstack: ["HTML", "CSS", "Tailwind CSS","JavaScript", "TypeScript", "React", "Firebase"]
+    techstack: ["HTML", "CSS", "Tailwind CSS","JavaScript", "TypeScript", "React", "Firebase"],
+    visualizationNode: (
+        <div className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full h-[200px] text-xl italic flex justify-center items-center border-gray-700">
+            <p>The currenty displayed website.</p>
+        </div>
+    )
 }
 
 export const SymbolicRegression: IProjectInfo = {
-    title: "Python framework for Genetic Algorithm and Symbolic Regression",
+    title: "Python Programming Experience",
     id: "symreg",
     bullerpoints: [
         {
             subtitle: "Features",
             points: [
+                "Application of Pandas and Keras for machine learning and data processing",
                 "A Python framework for generic genetic algorithm",
                 "Expansion of genetic algorithm to optimize tree structures and application for automatic deriving of equations from data"
             ]
@@ -129,11 +153,18 @@ export const SymbolicRegression: IProjectInfo = {
         {
             subtitle: "Code",
             points: [
-                "Implemented the framework with object-oriented programming paradigm",
+                "Implemented the frameworks and tools with object-oriented programming paradigm and test-driven development",
+                "Processed data and trained artificial neural networks"
             ]
         }
     ],
-    gifVisualisation: "/Calculator_Demo.mp4",
+    gifVisualisation: "videos/Python.mp4",
     links: {demoLink: "", githubLink: "https://github.com/Survila-Dev/Symbolic-Regression"},
-    techstack: ["Python"]
+    techstack: ["Python", "Pandas", "Keras", "OpenGL"],
+    visualizationNode: (
+        <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
+            <source src="videos/Python.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+    )
 }

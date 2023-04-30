@@ -48,7 +48,7 @@ export const ElevatorPitch: React.FC<IElevatorPitch> = ({sectionNo, updateYPosit
                 </div>
             </div>
             <video className = "row-start-2 col-start-1 col-span-1  opacity-0 animate-wait-for-right web:col-start-3 web:row-start-2 web:col-span-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
-            <source src="Resume_Video.mp4" type="video/mp4"/>
+            <source src="videos/Resume_Video.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
             </video>
         </section>

@@ -43,10 +43,12 @@ export const ProjectSection: React.FC<IProjectSectionProps> = ({projectNo, proje
                     src={projectInfo.gifVisualisation}
                     alt="GIF Visualization for the side project."/> */}
 
-                <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
+                {projectInfo.visualizationNode}
+
+                {/* <video className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full border-gray-700" controls>
                 <source src={projectInfo.gifVisualisation} type="video/mp4"/>
                 Your browser does not support the video tag.
-                </video>
+                </video> */}
             </div>
             <div className =  "justify-center row-start-6 col-start-1 opacity-0 animate-wait-for-right  col-span-1 flex flex-row web:justify-start web:flex-col gap-1 web:row-start-3 web:col-start-4 web:row-span-3">
                 {showLiveDemoButton && <a
