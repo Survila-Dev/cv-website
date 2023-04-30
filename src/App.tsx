@@ -16,6 +16,7 @@ function App() {
 
   useIntersectionObserver("animate-wait-for-left", "animate-come-from-left", 0.5)
   useIntersectionObserver("animate-wait-for-right", "animate-come-from-right", 0.5)
+  useIntersectionObserver("animate-wait-for-left-pre", "animate-come-from-left-pre", 0.5)
 
   return (
     <div className = "font-mono w-[100%] bg-scroll bg-cover absolute overflow-y-visible web:snap-mandatory max-h-screen overflow-x-hidden" >

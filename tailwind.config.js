@@ -42,6 +42,16 @@ module.exports = {
             opacity: "100%"
           }
         },
+        "fly-from-left-pre": {
+          "0%": {
+            transform: "translateX(-50%))",
+            opacity: "0"
+          },
+          "100%": {
+            transform: "translateX(0)",
+            opacity: "100%"
+          }
+        },
         "fly-from-right": {
           "0%": {
             transform: "translateX(100px)",
@@ -62,6 +72,16 @@ module.exports = {
             opacity: "0"
           },
         },
+        "disappear-to-left-pre": {
+          "0%": {
+            transform: "translateX(0)",
+            opacity: "100%"
+          },
+          "100%": {
+            transform: "translateX(-20%)",
+            opacity: "0"
+          },
+        },
         "disappear-to-right": {
           "0%": {
             transform: "translateX(0)",
@@ -78,6 +98,8 @@ module.exports = {
         "come-from-right": "fly-from-right 0.6s ease-in-out forwards",
         "wait-for-left": "disappear-to-left 0.6s ease-in-out forwards",
         "wait-for-right": "disappear-to-right 0.6s ease-in-out forwards",
+        "come-from-left-pre": "fly-from-left-pre 0.6s ease-in-out forwards",
+        "wait-for-left-pre": "disappear-to-left-pre 0.6s ease-in-out forwards",
       }
     },
     screens: {
