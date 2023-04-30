@@ -133,7 +133,7 @@ export const ResumeWebsiteProject: IProjectInfo = {
     techstack: ["HTML", "CSS", "Tailwind CSS","JavaScript", "TypeScript", "React", "Firebase"],
     visualizationNode: (
         <div className = "col-start-3 row-start-2 max-w-full border-solid border-[1px] w-full h-[200px] text-xl italic flex justify-center items-center border-gray-700">
-            <p>The currenty displayed website.</p>
+            <p>The currently displayed website.</p>
         </div>
     )
 }

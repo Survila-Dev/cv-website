@@ -21,8 +21,8 @@ module.exports = {
 
       },
       gridTemplateColumns: {
-        "general": "1fr 350px 7fr auto 1fr",
-        "project": "1fr 350px 7fr auto 1fr",
+        "general": "1fr 400px 7fr auto 1fr",
+        "project": "1fr 400px 7fr 1fr",
         "project-small": "1fr"
       },
       gridTemplateRows: {

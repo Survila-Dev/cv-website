@@ -20,7 +20,7 @@ export const FirstImpressionSection: React.FC<IFirstImpressionSection> = ({secti
             <div className = "mt-6 web:mt-0 web:px-3 web:absolute web:left-[20vw] web:top-[20vh] p-4 rounded-r-lg bg-box-background backdrop-blur-md bg-opacity-10 pb-2 pt-3 border-l-4 border-border-line">
                 <div className = "col-start-2 row-start-2 w-full">
                     <p className = "text-6xl text-text-highlight mb-5">Hi! I'm Eimantas</p>
-                    <p className = "text-3xl w-full web:w-[25vw] mb-5">A React frontend developer with background in aerospace engineering and new found passion for software development</p>
+                    <p className = "text-3xl w-full web:w-[25vw] mb-5">A React frontend and Python developer</p>
                     <p className = "text-xl italic">Scroll down for a 42 seconds long resume video!</p>
                 </div>
             </div>

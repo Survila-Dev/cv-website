@@ -26,7 +26,7 @@ export const ElevatorPitch: React.FC<IElevatorPitch> = ({sectionNo, updateYPosit
     return (
         <section ref = {selfElement} id = "elevator_pitch_section" className = "relative px-2 web:pt-16 text-white web:px-0 w-full web:snap-start gap-6 grid grid-cols-project-small web:grid-cols-general web:grid-rows-general">
             <div className = "row-start-3 col-start-1 web:col-start-2 opacity-0 animate-wait-for-left  web:row-start-2 text-xl rounded-r-lg px-6 bg-box-background backdrop-blur-md bg-opacity-10 pb-4 pt-1 border-l-4 border-border-line">
-                <p className = "mb-4">I'm a self-taught <strong className = "text-text-highlight">React frontend</strong> and experienced <strong className = "text-text-highlight">Python developer</strong> with new found passion for app and web development. Currently I'm working as <strong className = "text-text-highlight">a laser system engineer</strong> and looking for impactful work as a software developer.</p>
+                <p className = "mb-4">I'm a <strong className = "text-text-highlight">React frontend</strong> and <strong className = "text-text-highlight">Python developer</strong> with new found passion for app and web development. Currently I'm working as <strong className = "text-text-highlight">a laser system engineer</strong> and looking for impactful work as a software developer.</p>
                 <a
                     className = "w-auto px-3 mb-4 rounded-lg flex flex-col items-center justify-center border-[1px] bg-button-background backdrop-blur-md bg-opacity-10 hover:bg-button-background-hover border-border-line"
                     href="/Resume.pdf"
