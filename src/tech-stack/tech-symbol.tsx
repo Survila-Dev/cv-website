@@ -75,7 +75,7 @@ export const TechSymbol: React.FC<{type: ITech}> = ({type}) => {
     }
 
     return (
-        <article className = "flex flex-col items-center w-[78px]">
+        <article className = "transition flex flex-col items-center w-[78px] opacity-0 animate-wait-for-left">
             {/* <div className = "bg-slate-700 h-[50px] w-[50px]"></div> */}
             {symbol}
             <p className = "text-sm text-center">{type}</p>
