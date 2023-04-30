@@ -113,21 +113,22 @@ export const ResumeWebsiteProject: IProjectInfo = {
         {
             subtitle: "Features",
             points: [
-                "Responsive design for desktop and for mobile",
-                "Integration of video"
+                "Responsive design for desktop and for mobile browsers",
+                "Scroll animation"
             ]
         },
         {
             subtitle: "Code",
             points: [
                 "Tailwind CSS formatting",
+                "Firebase hosting"
             ]
         }
     ],
     gifVisualisation: "/Calculator_Demo.mp4",
     links: {
         demoLink: "",
-        githubLink: "https://github.com/Survila-Dev/Resume-Website"
+        githubLink: "https://github.com/Survila-Dev/cv-website"
     },
     techstack: ["HTML", "CSS", "Tailwind CSS","JavaScript", "TypeScript", "React", "Firebase"],
     visualizationNode: (
@@ -144,9 +145,9 @@ export const SymbolicRegression: IProjectInfo = {
         {
             subtitle: "Features",
             points: [
-                "Application of Pandas and Keras for machine learning and data processing",
-                "A Python framework for generic genetic algorithm",
-                "Expansion of genetic algorithm to optimize tree structures and application for automatic deriving of equations from data"
+                "Application of Pandas and Keras for creationg of data processing pipelines and artificial neural network training",
+                "Developed a Python framework for generic genetic algorithm",
+                "Expanded this genetic algorithm to optimize tree structures and application for automatic deriving of equations from data"
             ]
         }
         ,
@@ -154,7 +155,7 @@ export const SymbolicRegression: IProjectInfo = {
             subtitle: "Code",
             points: [
                 "Implemented the frameworks and tools with object-oriented programming paradigm and test-driven development",
-                "Processed data and trained artificial neural networks"
+                
             ]
         }
     ],

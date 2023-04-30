@@ -21,7 +21,7 @@ export const FirstImpressionSection: React.FC<IFirstImpressionSection> = ({secti
                 <div className = "col-start-2 row-start-2 w-full">
                     <p className = "text-6xl text-text-highlight mb-5">Hi! I'm Eimantas</p>
                     <p className = "text-3xl w-full web:w-[25vw] mb-5">A React frontend developer with background in aerospace engineering and new found passion for software development</p>
-                    <p className = "text-xl italic">Scroll down for a 4 minute resume video!</p>
+                    <p className = "text-xl italic">Scroll down for a 42 seconds long resume video!</p>
                 </div>
             </div>
         </section>
