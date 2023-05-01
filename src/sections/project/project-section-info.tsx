@@ -11,7 +11,7 @@ export const VisProgProject: IProjectInfo = {
             subtitle: "Features",
             points: [
                 "Authentication and authorization with databank connection",
-                "Drag and drop functionallity built from scratch",
+                "Drag and drop functionality built from scratch",
                 "Back propagation algorithm for calculating value and highlighting not fully connected nodes",
             ]
         }
@@ -147,7 +147,7 @@ export const SymbolicRegression: IProjectInfo = {
             points: [
                 "Application of Pandas and Keras for creationg of data processing pipelines and artificial neural network training",
                 "Developed a Python framework for generic genetic algorithm",
-                "Expanded this genetic algorithm to optimize tree structures and application for automatic deriving of equations from data"
+                "Expanded this genetic algorithm to optimize tree structures and applied it for automatic deriving of equations from data"
             ]
         }
         ,
