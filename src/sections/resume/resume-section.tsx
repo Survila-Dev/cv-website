@@ -7,7 +7,7 @@ export const ResumeSection: React.FC<IResumeSection> = ({resumeInfoWork, resumeI
     const selfRef = useGetYPositionAndRef(sectionNo, updateYPosition)
 
     return (
-        <section ref = {selfRef} id = {resumeInfoWork.id} className = "w-full text-white web:snap-start grid web:grid-cols-general web:grid-rows-resume web:gap-5 pt-5 px-2 web:px-0 ">
+        <section ref = {selfRef} id = {resumeInfoWork.id} className = "w-full bg-background z-10 text-white web:snap-start grid web:grid-cols-general web:grid-rows-resume web:gap-5 pt-5 px-2 web:px-0 ">
             <div className = "web:row-start-1 web:col-start-2"></div>
             <h2 className = "col-start-1 col-span-1 opacity-0 animate-wait-for-left web:col-start-2 web:col-span-3 text-text-highlight text-2xl font-bold rounded-r-lg px-6 bg-box-background backdrop-blur-md bg-opacity-10 pt-2 pb-2 border-l-4 border-border-line">{resumeInfoWork.title}</h2>
             

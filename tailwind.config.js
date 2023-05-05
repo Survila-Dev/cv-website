@@ -17,7 +17,8 @@ module.exports = {
         "highlight-background": "#406258"
       },
       backgroundImage: {
-        "photo-me": "url('../public/Web_Resume_Desktop_Pic.jpg')",
+        "photo-me": "url('../public/Web_Resume_Desktop_Pic_no_background.png')",
+        "first-impression-background": "url('../public/example01.PNG')"
 
       },
       gridTemplateColumns: {
